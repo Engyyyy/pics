@@ -1,5 +1,5 @@
-function ImageShow() {
-  return <div>ImageShow</div>;
+function ImageList({ images }) {
+  return <div>ImageShow: {images.length}</div>;
 }
 
-export default ImageShow;
+export default ImageList;
