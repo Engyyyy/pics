@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{ marginRight: "50px", marginLeft: "50px" }}>
       <SearchBar onSubmit={handleSubmit} />
       <ImageList images={images} />
     </div>
